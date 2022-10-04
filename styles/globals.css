@@ -15,6 +15,14 @@ a {
   box-sizing: border-box;
 }
 
+div[data-state='alive'] {
+  background-color: black
+}
+
+div[data-state='dead'] {
+  background-color: green
+} 
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
